@@ -1,5 +1,7 @@
 body{
     font-family: "Open Sans";
+    color: #312D2D;
+    background-color: #FFFBF3;
 }
 .shrink-me{
     width: 1920px;
@@ -9,30 +11,25 @@ body{
 .color-box-yellow{
     width: 1920px;
     height: 804px;
-    background-color: #FFC446;
+    background-color: #B9E3BB;
 }
 .first-text{
     font-family: "Montserrat";
 }
-.first-text:hover{
+.illustrations:hover{
     cursor: pointer;
-    background-color: purple;
+    background-color: #FDD7FE;
 }
-.first-text:active{
+.illustrations:active{
     cursor:pointer;
     background-color: pink;
 }
 
-    color: blue;
-    background-color: red;
-    font-size: 6px;
-    text-align: center;
-    width: 1.25rem;
-    height: 1.25rem;
-    overflow: auto;
-    padding: 8px 16px;
-    border: 10px;
-    border-style: solid;
-    border-color: green;
-    border-radius: 4px;
-    margin: 32px;
+.graphicdesign:hover{
+    cursor: pointer;
+    background-color: #FFC446;
+}
+.graphicdesign:active{
+    cursor:pointer;
+    background-color: #FF9500;
+}
