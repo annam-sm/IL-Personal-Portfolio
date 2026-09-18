@@ -16,20 +16,50 @@ body{
 .first-text{
     font-family: "Montserrat";
 }
+.navbar{
+    font-size: 14px;
+    text-align: right;
+}
+.illu,
+.graph,
+.web,
+.mix {
+    color: black;
+    background-color: white;
+    font-size: 14px;
+    padding: 5px 20px 5px 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
 .illustrations:hover{
     cursor: pointer;
     background-color: #FDD7FE;
 }
 .illustrations:active{
     cursor:pointer;
-    background-color: pink;
+    background-color: rgb(195, 32, 165);
 }
-
 .graphicdesign:hover{
     cursor: pointer;
     background-color: #FFC446;
 }
 .graphicdesign:active{
     cursor:pointer;
-    background-color: #FF9500;
+    background-color: #f69002;
+}
+.webdesign:hover{
+     cursor: pointer;
+    background-color: rgb(102, 219, 252);
+}
+.webdesign:active{
+    cursor:pointer;
+    background-color: blue;
+}
+.mixedmedia:hover{
+     cursor: pointer;
+    background-color: rgb(244, 50, 50);
+}
+.mixedmedia:active{
+    cursor:pointer;
+    background-color: rgb(127, 13, 13);
 }
