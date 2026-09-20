@@ -22,8 +22,8 @@ body{
 }
 .illu,
 .graph,
-.web,
-.mix {
+.mix,
+.aboutme {
     color: black;
     background-color: white;
     font-size: 14px;
@@ -47,19 +47,19 @@ body{
     cursor:pointer;
     background-color: #f69002;
 }
-.webdesign:hover{
+.mixmedia:hover{
      cursor: pointer;
     background-color: rgb(102, 219, 252);
 }
-.webdesign:active{
+.mixmedia:active{
     cursor:pointer;
     background-color: blue;
 }
-.mixedmedia:hover{
+.about-me:hover{
      cursor: pointer;
     background-color: rgb(244, 50, 50);
 }
-.mixedmedia:active{
+.about-me:active{
     cursor:pointer;
     background-color: rgb(127, 13, 13);
 }
