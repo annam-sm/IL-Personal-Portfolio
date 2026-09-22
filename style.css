@@ -92,6 +92,12 @@ body{
     color: white;
     text-decoration: none;
 }
+.color-box-darkgreen a:hover{
+    color: #B9E3BB;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
 .color-box-darkgreen p{
     color: white !important;
     font-size: 14px;
