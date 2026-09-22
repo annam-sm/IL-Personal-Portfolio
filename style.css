@@ -1,20 +1,39 @@
 body{
     font-family: "Open Sans";
     color: #312D2D;
-    background-color: #FFFBF3;
+    background-color: #FEFAEF;
 }
 .shrink-me{
-    width: 1920px;
+    width: 1775px;
     height: 715px;
     object-fit: cover;
 }
-.color-box-green{
-    width: 1920px;
-    height: 804px;
+.first-color-box-green{
+    color: #0F3511;
     background-color: #B9E3BB;
+    text-align: center;
+    padding: 60px
 }
 .first-text{
     font-family: "Montserrat";
+}
+.yellow-text{
+    color: #FF9500;
+    text-align: center;
+}
+.second-color-box-green{
+    color: #0F3511;
+    background-color: #B9E3BB;
+    text-align: center;
+    padding: 60px
+}
+.yellow-text-two{
+    color: #FF9500;
+    text-align: left;
+}
+.yellow-text-three{
+    color: #FF9500;
+    text-align: right;
 }
 .navbar{
     font-size: 14px;
@@ -30,6 +49,7 @@ body{
     padding: 5px 20px 5px 20px;
     border: 2px solid black;
     border-radius: 50px;
+    text-decoration: none;
 }
 .illustrations:hover{
     cursor: pointer;
@@ -62,4 +82,19 @@ body{
 .about-me:active{
     cursor:pointer;
     background-color: rgb(127, 13, 13);
+}
+.color-box-darkgreen{
+    background-color: #0F3511;
+    text-align: center;
+    padding: 60px;
+}
+.color-box-darkgreen a{
+    color: white;
+    text-decoration: none;
+}
+.color-box-darkgreen p{
+    color: white !important;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
