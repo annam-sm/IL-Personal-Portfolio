@@ -104,3 +104,14 @@ body{
     font-weight: bold;
     margin-bottom: 15px;
 }
+.center-text{
+    text-align: center;
+}
+.shrink-me-vinyl{
+    display: block;
+    width: 100%;
+    Max-width: 800px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
