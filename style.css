@@ -1,60 +1,30 @@
 body{
     font-family: "Open Sans";
-    color: #312D2D;
+    color: #FFFF;
     background-color: #FEFAEF;
 }
-.shrink-me{
-    width: 1775px;
+.hero-bg {
+    background: url('./assets/heroimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 1775px;
     height: 715px;
-    object-fit: cover;
-}
-.first-color-box-green{
-    color: #0F3511;
-    background-color: #B9E3BB;
-    text-align: center;
-    padding: 60px
-}
-.first-text{
-    font-family: "Montserrat";
-}
-.yellow-text{
-    color: #FF9500;
-    text-align: center;
-}
-.second-color-box-green{
-    color: #0F3511;
-    background-color: #B9E3BB;
-    text-align: center;
-    padding: 60px
-}
-.container{
-    color: #FF9500;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    gap: 0.75rem;
-}
-.child{
-    display: flex;
-    flex-direction: column;
-    gap: 0.8px;
-}
-@media screen and (min-width: 320px) {
-    .container {
-        display: flex;
-        justify-content:space-around;
-        flex-direction: row;
-        gap: 1.5rem;
-    }
+    margin: 0 auto;
 }
 .navbar{
     font-size: 14px;
-    text-align: right;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
     align-items: center;
     gap: 0.5rem;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.logo{
+    margin-right: auto;
 }
 .illu,
 .graph,
@@ -64,7 +34,6 @@ body{
     background-color: white;
     font-size: 14px;
     padding: 5px 20px 5px 20px;
-    border: 2px solid black;
     border-radius: 50px;
     text-decoration: none;
 }
@@ -100,6 +69,54 @@ body{
     cursor:pointer;
     background-color: rgb(127, 13, 13);
 }
+
+
+
+
+.first-color-box-green{
+    color: #0F3511;
+    background-color: #B9E3BB;
+    text-align: center;
+    padding: 60px
+}
+.first-text{
+    font-family: "Montserrat";
+}
+.yellow-text{
+    color: #FF9500;
+    text-align: center;
+}
+.second-color-box-green{
+    color: #0F3511;
+    background-color: #B9E3BB;
+    text-align: center;
+    padding: 60px
+}
+
+.container{
+    color: #FF9500;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 0.75rem;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8px;
+}
+@media screen and (min-width: 320px) {
+    .container {
+        display: flex;
+        justify-content:space-around;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+}
+
+
+
+
 .color-box-darkgreen{
     background-color: #0F3511;
     text-align: center;
