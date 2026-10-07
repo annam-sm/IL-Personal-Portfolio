@@ -14,12 +14,26 @@ body{
     max-width: 1775px;
     height: 715px;
     margin: 0 auto;
+    display:flex;
+    flex-direction: column;
 }
 
 .first-text{
     font-family: "Montserrat";
-}
+    font-size: 24px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto 0;
 
+}
+.CTA{
+    background-color: #160F35;
+    box-sizing: border-box;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
 .navbar{
     font-size: 14px;
     display: flex;
