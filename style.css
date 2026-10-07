@@ -168,6 +168,10 @@ body{
     text-decoration-thickness: 2px;
     text-underline-offset: 4px;
 }
+.color-box-darkpurp a:active{
+    cursor:pointer;
+    color: #93DDDB;
+}
 .color-box-darkpurp p{
     color: white !important;
     font-size: 14px;
