@@ -1,7 +1,9 @@
 body{
     font-family: "Open Sans";
     color: #FFFF;
-    background-color: #FEFAEF;
+    background-color: #7F8CF4;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 .hero-bg {
     background: url('./assets/heroimg.jpg');
@@ -13,12 +15,17 @@ body{
     height: 715px;
     margin: 0 auto;
 }
+
+.first-text{
+    font-family: "Montserrat";
+}
+
 .navbar{
     font-size: 14px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 0.5rem;
+    gap: 2rem;
     padding: 20px 40px;
     box-sizing: border-box;
     width: 100%;
@@ -33,7 +40,7 @@ body{
     color: black;
     background-color: white;
     font-size: 14px;
-    padding: 5px 20px 5px 20px;
+    padding: 10px 20px 10px 20px;
     border-radius: 50px;
     text-decoration: none;
 }
@@ -43,96 +50,125 @@ body{
 }
 .illustrations:active{
     cursor:pointer;
-    background-color: rgb(195, 32, 165);
+    background-color: #CFA5ED;
 }
 .graphicdesign:hover{
     cursor: pointer;
-    background-color: #FFC446;
+    background-color: #FDD7FE;
 }
 .graphicdesign:active{
     cursor:pointer;
-    background-color: #f69002;
+    background-color: #CFA5ED;
 }
 .mixmedia:hover{
      cursor: pointer;
-    background-color: rgb(102, 219, 252);
+    background-color: #FDD7FE;
 }
 .mixmedia:active{
     cursor:pointer;
-    background-color: blue;
+    background-color: CFA5ED;
 }
 .about-me:hover{
      cursor: pointer;
-    background-color: rgb(244, 50, 50);
+    background-color: #C6EEED;
 }
 .about-me:active{
     cursor:pointer;
-    background-color: rgb(127, 13, 13);
+    background-color: #93DDDB;
 }
 
 
 
 
-.first-color-box-green{
-    color: #0F3511;
-    background-color: #B9E3BB;
+.first-color-box-blue{
+    color: #fff;
+    background-color: #4E6DAF;
     text-align: center;
-    padding: 60px
-}
-.first-text{
-    font-family: "Montserrat";
-}
-.yellow-text{
-    color: #FF9500;
-    text-align: center;
-}
-.second-color-box-green{
-    color: #0F3511;
-    background-color: #B9E3BB;
-    text-align: center;
-    padding: 60px
+    padding: 60px;
+    margin-bottom: 50px
 }
 
-.container{
-    color: #FF9500;
+
+
+
+.skills-container{
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    gap: 0.75rem;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #E6CAFA;
+    padding: 40px;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px
 }
-.child{
+.icon-card{
+    flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 0.8px;
+    align-items: center;
 }
-@media screen and (min-width: 320px) {
-    .container {
-        display: flex;
-        justify-content:space-around;
-        flex-direction: row;
-        gap: 1.5rem;
-    }
+.icon-circle{
+    background-color: #362D62;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.purple-text{
+    color: #362D62;
+    text-align: center;
 }
 
 
+.second-color-box-pink{
+    color: #FFFF;
+    background-color: #E6CAFA;
+    text-align: center;
+    padding: 60px
+}
 
 
-.color-box-darkgreen{
-    background-color: #0F3511;
+.cards-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    padding: 60px 40px;
+}
+.text-card{
+    color: #362D62;
+    background-color: #E6CAFA;
+    border-radius: 40px;
+    padding: 40px;
+    max-width: 450px;
+    box-sizing: border-box;
+}
+.text-card-headers{
+    color:#362D62;
+    text-align: center;
+}
+
+
+.color-box-darkpurp{
+    background-color: #160F35;
     text-align: center;
     padding: 60px;
 }
-.color-box-darkgreen a{
+.color-box-darkpurp a{
     color: white;
     text-decoration: none;
 }
-.color-box-darkgreen a:hover{
-    color: #B9E3BB;
+.color-box-darkpurp a:hover{
+    color: #E6CAFA;
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 4px;
 }
-.color-box-darkgreen p{
+.color-box-darkpurp p{
     color: white !important;
     font-size: 14px;
     font-weight: bold;
@@ -148,4 +184,14 @@ body{
     height: auto;
     margin-right: auto;
     margin-left: auto;
+}
+
+
+@media screen and (min-width: 320px) {
+    .container {
+        display: flex;
+        justify-content:space-around;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
 }
