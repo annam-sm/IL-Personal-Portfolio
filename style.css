@@ -1,22 +1,91 @@
 body{
-    font-family: "Open Sans";
-    color: #FFFF;
+    font-family: "Montserrat";
+    color: #362D62;
+    background-color: #F9F6FF;
+    margin-top: 0px;
+}
+.navbar{
+     color: #fff;
     background-color: #7F8CF4;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-.hero-bg {
-    background: url('./assets/heroimg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    padding: 15px 35px;
+    margin-bottom: 0;
+    box-sizing: border-box;
     width: 100%;
-    max-width: 1775px;
-    height: 715px;
-    margin: 0 auto;
-    display:flex;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
+.illu,
+.graph,
+.logo,
+.mix,
+.aboutme {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.illustrations:hover{
+    cursor: pointer;
+    background-color: #DFB2FF;
+    color: #F6EAFF
+}
+.illustrations:active{
+    cursor:pointer;
+    background-color: #B573E5;
+}
+.graphicdesign:hover{
+    cursor: pointer;
+    background-color: #C27AC5;
+    color:#F6EAFF
+}
+.graphicdesign:active{
+    cursor:pointer;
+    background-color: #CFA5ED;
+}
+.log{
+    font-size: 50px;
+}
+.mixmedia:hover{
+     cursor: pointer;
+    background-color: #3F327C;
+    color: #F6EAFF;
+}
+.mixmedia:active{
+    cursor:pointer;
+    background-color: #5945B9;
+}
+.about-me:hover{
+     cursor: pointer;
+    background-color: #32539A;
+    color: #F6EAFF;
+}
+.about-me:active{
+    cursor:pointer;
+    background-color: #5479C8;
+}
+.hero-container{
+    width:100%;
+    overflow: hidden;
+}
+.hero-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
 
 .first-text{
     font-family: "Montserrat";
@@ -28,71 +97,6 @@ body{
     margin: auto 0;
 
 }
-.CTA{
-    background-color: #160F35;
-    box-sizing: border-box;
-    padding: 10px 40px;
-    border-radius: 20px;
-}
-.navbar{
-    font-size: 14px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 2rem;
-    padding: 20px 40px;
-    box-sizing: border-box;
-    width: 100%;
-}
-.logo{
-    margin-right: auto;
-}
-.illu,
-.graph,
-.mix,
-.aboutme {
-    color: black;
-    background-color: white;
-    font-size: 14px;
-    padding: 10px 20px 10px 20px;
-    border-radius: 50px;
-    text-decoration: none;
-}
-.illustrations:hover{
-    cursor: pointer;
-    background-color: #FDD7FE;
-}
-.illustrations:active{
-    cursor:pointer;
-    background-color: #CFA5ED;
-}
-.graphicdesign:hover{
-    cursor: pointer;
-    background-color: #FDD7FE;
-}
-.graphicdesign:active{
-    cursor:pointer;
-    background-color: #CFA5ED;
-}
-.mixmedia:hover{
-     cursor: pointer;
-    background-color: #FDD7FE;
-}
-.mixmedia:active{
-    cursor:pointer;
-    background-color: CFA5ED;
-}
-.about-me:hover{
-     cursor: pointer;
-    background-color: #C6EEED;
-}
-.about-me:active{
-    cursor:pointer;
-    background-color: #93DDDB;
-}
-
-
-
 
 .first-color-box-blue{
     color: #fff;
