@@ -4,31 +4,57 @@ body{
     background-color: #F9F6FF;
     margin-top: 0px;
 }
-.navbar{
-    display: none;
-     color: #fff;
+.header-row{
     background-color: #7F8CF4;
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
+    padding: 15px 35px;
+   width: auto;
+   height: auto;
+   display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
 }
 .hamburger{
-    color: #7f8cf4;
-    font-size: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+.navbar{
+  display: none;        
+  flex-direction: column; 
+  gap: 20px;            
+  padding: 80px 30px 30px 30px; 
+  width: 280px;        
+  height: 80vh;       
+  background-color: #ffffff; 
+  position: absolute;
+  top: 0;
+  left: 0;             
+  bottom: 0;         
+  color: #7F8CF4;       
+}
+
+.navbar a{
+  color: #7F8CF4;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
 }
 
 .illu,
 .graph,
-.logo,
 .mix,
 .aboutme {
-    color: white;
-    font-size: 24px;
+    color: #fff;
+    font-size: 12px;
     font-weight: 600;
     padding: 10px 20px 10px 20px;
     border-radius: 50px;
@@ -51,9 +77,6 @@ body{
 .graphicdesign:active{
     cursor:pointer;
     background-color: #CFA5ED;
-}
-.log{
-    font-size: 50px;
 }
 .mixmedia:hover{
      cursor: pointer;
@@ -82,14 +105,6 @@ body{
     height: auto;
     display: block;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -214,12 +229,11 @@ body{
     margin-left: auto;
 }
 
-@media screen and (max-width: 320px) {
+/*@media screen and (max-width: 320px) {
     .container {
         /*mobile*/
         display: none;
-    }
-}
+ 
 
 @media screen and (min-width: 768px) {
     .container {
@@ -229,26 +243,57 @@ body{
         flex-direction: row;
         gap: 1.5rem;
     }
+   .header-row,
+    .hamburger,
+    .closex
+    .navbar a {
+        display:none;
+    }
     .navbar{
-   display: flex;
-   background: #7F8CF4;
-   position: relative;
-   width: auto;
-   height: auto;
-   top: auto;
-   right: auto;
-   bottom: auto;
-   left: auto;
+    display:flex !important;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: #7F8CF4;
+    padding: 15px 35px;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    box-shadow: none;
+    }
+    
+    .illu,
+        .graph,
+        .logo,
+        .mix,
+        .aboutme {
+            font-size: 14px;
+            color: #fff;
+        }
+ }
+
+ 
+@media screen and (min-width: 900px) {
+    .illu,
+    .graph,
+    .logo,
+    .mix,
+    .aboutme {
+        font-size: 18px;
+    }
 }
-.hamburger{
-    display:none;
-}
-.closex{
-    display:none;
-}
+@media screen and (min-width: 1185px) {
+    .illu,
+    .graph,
+    .logo,
+    .mix,
+    .aboutme {
+        font-size: 24px;
+    }
 }
 
 
@@ -265,3 +310,16 @@ body{
     align-items: center;
     justify-content: center;
 } */
+
+/*.navbar{
+    display: none;
+    color: #7F8CF4;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}*/

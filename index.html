@@ -9,24 +9,29 @@
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
           <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" 
           rel="stylesheet">
-          <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-            <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
             <script>
-            $(".hamburger").click(function() {$(".navbar").slideToggle();});
-            $(".closex").click(function() {$(".navbar").fadeOut();});
+                $("document").ready(
+                    function() {
+                        $(".hamburger").click(() => $(".navbar").slideToggle());
+                        $(".closex").click(() => $(".navbar").fadeOut());
+                    }
+                )
             </script>
     </head>
     <body>
-     
+            <div class="header-row">
+                 <div class="hamburger"> &#9776;</div> 
+                 <a class="logo" href="/">Anna Moreno </a> </div>
                 <div class="navbar">
                     <div class="closex"> &#x2715; </div>
                     <a class="graph graphicdesign" href="/graphic design">Graphic Design</a>
                     <a class="illu illustrations " href="/illustrations">Illustrations</a>
-                    <a class="logo log" href="/">Anna Moreno</a> 
                     <a class="mix mixmedia" href="/mixedmedia">Mixed Media</a>
                     <a class="aboutme about-me" href="/aboutme">About Me</a>
                  </div>
-                <div class="hamburger"> &#9776;</div>
+                
+
          <div class="hero-container"> 
             <img src="/assets/screenshot 1.png" alt="Anna Moreno Artwork" class="hero-img">
          </div>
