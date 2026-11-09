@@ -2,11 +2,13 @@ body{
     font-family: "Montserrat";
     color: #362D62;
     background-color: #F9F6FF;
-    margin-top: 0px;
+    margin: 0px;
+   
 }
-.header-row{
-    background-color: #7F8CF4;
-    padding: 15px 35px;
+
+ .header-row{
+    background-color: #7f8cf4;
+    padding: 10px 20px;
    width: auto;
    height: auto;
    display:flex;
@@ -15,7 +17,7 @@ body{
 
 }
 .logo{
-    color: #fff;
+    color: #ffff;
     font-size: 16px;
     font-weight: 600;
     padding: 10px 20px 10px 20px;
@@ -23,7 +25,7 @@ body{
     text-decoration: none;
 }
 .hamburger{
-    color: #fff;
+    color: #ffff;
     font-size: 30px;
 }
 .navbar{
@@ -37,8 +39,7 @@ body{
   position: absolute;
   top: 0;
   left: 0;             
-  bottom: 0;         
-  color: #7F8CF4;       
+  bottom: 0;              
 }
 
 .navbar a{
@@ -49,11 +50,13 @@ body{
   display: block;
 }
 
+
+
+
 .illu,
 .graph,
 .mix,
 .aboutme {
-    color: #fff;
     font-size: 12px;
     font-weight: 600;
     padding: 10px 20px 10px 20px;
@@ -96,6 +99,13 @@ body{
     cursor:pointer;
     background-color: #5479C8;
 }
+
+
+
+
+
+
+
 .hero-container{
     width:100%;
     overflow: hidden;
@@ -228,11 +238,6 @@ body{
     margin-right: auto;
     margin-left: auto;
 }
-
-/*@media screen and (max-width: 320px) {
-    .container {
-        /*mobile*/
-        display: none;
  
 
 @media screen and (min-width: 768px) {
@@ -243,27 +248,33 @@ body{
         flex-direction: row;
         gap: 1.5rem;
     }
-   .header-row,
     .hamburger,
-    .closex
-    .navbar a {
+    .closex{
         display:none;
     }
-    .navbar{
+    .site-header{
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        background-color: #7F8CF4;
+        padding: 15px 35px;
+    }
+    .header-row{
+        padding: 0;
+        background-color: transparent;
+    }
+.navbar{
     display:flex !important;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    background-color: #7F8CF4;
-    padding: 15px 35px;
-    position: relative;
+    position: static;
     width: auto;
     height: auto;
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
-    box-shadow: none;
+    padding: 0;
+    background-color: transparent;
+    }
+    .navbar a {
+        color: white;
     }
     
     .illu,
@@ -276,8 +287,7 @@ body{
         }
  }
 
- 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 700px) {
     .illu,
     .graph,
     .logo,
@@ -295,31 +305,3 @@ body{
         font-size: 24px;
     }
 }
-
-
-/* 
-.navbar{
-     color: #fff;
-    background-color: #7F8CF4;
-    padding: 15px 35px;
-    margin-bottom: 0;
-    box-sizing: border-box;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-} */
-
-/*.navbar{
-    display: none;
-    color: #7F8CF4;
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-}*/
