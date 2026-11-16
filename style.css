@@ -128,30 +128,31 @@ body{
     gap: 40px;
 }
 .text-content {
-    max-width: 550px;
+    max-width: 600px;
 }
 .heading{
-    font-size: 30px;
+    font-size: 18px;
     margin-top:0;
     margin-bottom: 24px;
 }
 .size{
-    font-size: 24px;
+    font-size: 14px;
     line-height: 1.4;
     margin-bottom: 20px;
 }
 .read-more-button{
     display: inline-block;
     margin-top: 15px;
-    padding: 14px 36px;
+    padding: 12px 24px;
     background-color: #BCEFEC;
-    color: 4E6DAF;
-    font-size: 20px;
+    color: #005C96;
+    font-size: 14px;
     border-radius: 50px;
+    text-decoration:none;
 }
 .circle-placeholder {
-    width: 350px;
-    height: 350px;
+    width: 180px;
+    height: 180px;
     background-color: #BCEFEC;
     border-radius: 50%;
     flex-shrink: 0;
