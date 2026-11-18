@@ -190,6 +190,10 @@ body{
     width:50%;
     overflow: hidden;
 }
+.hero-container3{
+    width:100%;
+    overflow: hidden;
+}
 .white-text{
     color: #ffff;
     text-align: center;
@@ -225,9 +229,8 @@ body{
     font-size: 12px;
 }
 .work-outline{
-    background-color: #E6CAFA;
     width: 135px;
-    height: 125px;
+    height: 135px;
     border-radius: 10%;
     margin-bottom: 15px;
     font-size: 14px;
