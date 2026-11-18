@@ -172,6 +172,8 @@ body{
     flex-direction: column;
     align-items: center;
 }
+
+
 .icon-circle{
     background-color: #362D62;
     width: 80px;
@@ -183,11 +185,15 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.hero-container2{
+    width:50%;
+    overflow: hidden;
+}
 .white-text{
     color: #ffff;
     text-align: center;
 }
-
 
 .cards-container{
     display: flex;
@@ -207,6 +213,55 @@ body{
     color:#362D62;
     text-align: center;
 }
+
+
+
+.notableworks-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #ffff;
+    padding: 40px;
+    font-size: 12px;
+}
+.work-outline{
+    background-color: #E6CAFA;
+    width: 135px;
+    height: 125px;
+    border-radius: 10%;
+    margin-bottom: 15px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.purp-text{
+    color: #7F8CF4;
+    text-align: center;
+}
+.read-more-button2{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background-color: #7F8CF4;
+    color: #ffff;
+    font-size: 14px;
+    border-radius: 50px;
+    text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .color-box-darkpurp{
